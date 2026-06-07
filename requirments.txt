@@ -1,0 +1,7 @@
+mujoco
+robosuite
+numpy
+h5py
+matplotlib
+tqdm
+opencv-python
