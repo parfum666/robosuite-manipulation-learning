@@ -32,6 +32,9 @@ At the current stage, I am learning how to create and run basic robosuite simula
 - Rendered the MuJoCo simulation window  
   成功打开 MuJoCo 仿真窗口
 
+- Added a simple scripted policy for the Lift task  
+  新增 Lift 任务的简单规则控制策略，使 Panda 机械臂能够接近并夹起木块
+
 ---
 
 ## Current Code / 当前代码
@@ -77,14 +80,8 @@ python 01_env_test.py
 
 ## Next Steps / 下一步计划
 
-- Learn how actions control the robot  
-  学习 action 如何控制机器人
-
-- Write a simple scripted policy  
-  编写简单的规则控制策略
-
-- Save observations and actions as trajectory data  
-  保存 observation 和 action 作为轨迹数据
+- Save observations, actions, rewards, and done flags as trajectory data  
+  保存 observation、action、reward、done 等轨迹数据
 
 - Replay saved trajectories  
   回放保存的轨迹
